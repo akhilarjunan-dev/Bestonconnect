@@ -1,0 +1,31 @@
+project_id = "ghghzwouwwyvguipdght"
+
+[functions.track-referral]
+verify_jwt = false
+
+[functions.razorpay]
+verify_jwt = false
+
+[functions.razorpay-webhook]
+verify_jwt = false
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.premium-subscription]
+verify_jwt = false
+
+[functions.auto-complete-orders]
+verify_jwt = false
+
+[functions.daily-tier-reset-notification]
+verify_jwt = false
+
+[functions.validate-referral-code]
+verify_jwt = false
+
+[functions.delhivery]
+verify_jwt = false
+
+[functions.check-subscription-expiry]
+verify_jwt = false

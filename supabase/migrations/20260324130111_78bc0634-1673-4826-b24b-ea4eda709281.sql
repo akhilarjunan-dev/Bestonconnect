@@ -1,0 +1,1 @@
+ALTER TABLE public.products ALTER COLUMN platform_commission SET DEFAULT 0;
