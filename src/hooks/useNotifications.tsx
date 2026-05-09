@@ -47,8 +47,8 @@ export const showBrowserNotification = (title: string, message: string, type: st
   
   const notification = new window.Notification(title, {
     body: message,
-    icon: '/favicon.ico',
-    badge: '/favicon.ico',
+    icon: '/favicon.png',
+    badge: '/favicon.png',
     tag: `notification-${Date.now()}`,
     requireInteraction: false,
   });
