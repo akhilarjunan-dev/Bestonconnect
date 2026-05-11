@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Play, Megaphone, Bell, Menu } from 'lucide-react';
 import logoImage from '@/assets/logo.png';
+import shopperNavLogo from '@/assets/shopper-nav-logo.png';
 import { cn } from '@/lib/utils';
 import { useAuth } from '@/hooks/useAuth';
 import { useNotifications } from '@/hooks/useNotifications';
@@ -111,8 +112,12 @@ export function ShopperNavFooter() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }
             }}>
-              <div className="w-16 h-16 rounded-full gradient-hero shadow-glow flex items-center justify-center ring-4 ring-background">
-                <img src={logoImage} alt="Bestonconnect" className="w-10 h-10 rounded-full" />
+              <div className="w-16 h-16 rounded-full gradient-hero shadow-glow flex items-center justify-center ring-4 ring-background overflow-hidden">
+                <img
+                  src={shopperNavLogo}
+                  alt="Bestonconnect"
+                  className="w-11 h-11 object-contain"
+                />
               </div>
               <span className="text-xs font-semibold text-primary mt-1">Shop</span>
             </Link>
